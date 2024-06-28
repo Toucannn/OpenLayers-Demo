@@ -15,3 +15,7 @@ const map = new Map({
     zoom: 2
   })
 });
+
+map.on('click', function(e) {
+  console.log(e)
+})
